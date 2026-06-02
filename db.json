@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "titulo": "Introdução ao MVVM e Clean Architecture",
+    "resumo": "O vídeo apresenta os conceitos fundamentais da arquitetura MVVM aplicada ao desenvolvimento Android. Inicialmente são discutidos os problemas encontrados quando toda a lógica da aplicação é concentrada nas Activities e Fragments, tornando o código difícil de manter e testar. Em seguida é apresentada a separação de responsabilidades entre View, ViewModel e Model, demonstrando como cada camada possui funções específicas. O vídeo também aborda a importância da Clean Architecture para organizar o projeto em módulos independentes, facilitando manutenção, escalabilidade e reutilização de código. A combinação entre MVVM e Clean Architecture permite criar aplicações mais organizadas, desacopladas e preparadas para futuras expansões sem comprometer a qualidade do software."
+  },
+    {
+    "id": 2,
+    "titulo": "Título: Camadas da Clean Architecture",
+    "resumo": "O vídeo aprofunda a estrutura da Clean Architecture, explicando como as camadas são organizadas e como ocorre a comunicação entre elas. São apresentados os conceitos de Presentation Layer, Domain Layer e Data Layer, destacando a responsabilidade de cada uma. A camada de apresentação é responsável pela interface com o usuário, enquanto a camada de domínio concentra as regras de negócio por meio dos Use Cases. Já a camada de dados realiza o acesso ao banco de dados ou serviços externos. O vídeo reforça que as dependências devem apontar sempre para o domínio, garantindo baixo acoplamento. Essa organização melhora a legibilidade do projeto e facilita testes unitários e futuras modificações."
+  }, 
+    {
+    "id": 2,
+    "titulo": "Implementação prática com Repository e Use Cases",
+    "resumo": "O vídeo demonstra a implementação prática dos componentes da arquitetura, especialmente Repository e Use Cases. O Repository atua como intermediário entre a origem dos dados e as regras de negócio, escondendo detalhes de implementação do banco de dados ou APIs. Os Use Cases representam ações específicas executadas pelo sistema, encapsulando regras de negócio e mantendo a camada de apresentação mais simples. Também é mostrado como o ViewModel interage com os Use Cases para fornecer dados às telas da aplicação. A abordagem apresentada contribui para a criação de sistemas mais organizados, testáveis e fáceis de manter. O uso adequado dessas camadas reduz dependências diretas e melhora significativamente a estrutura geral do projeto."
+  }
+]
