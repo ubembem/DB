@@ -1,0 +1,38 @@
+{
+  "nomes": [
+    "Pikachu",
+    "Charizard",
+    "Blastoise",
+    "Venusaur",
+    "Gengar",
+    "Alakazam",
+    "Machamp",
+    "Dragonite",
+    "Snorlax",
+    "Lucario"
+  ],
+  "poderes": [
+    55,
+    84,
+    83,
+    82,
+    65,
+    50,
+    130,
+    134,
+    110,
+    110
+  ],
+  "categorias": [
+    "Elétrico",
+    "Fogo",
+    "Água",
+    "Planta",
+    "Fantasma",
+    "Psíquico",
+    "Lutador",
+    "Dragão",
+    "Normal",
+    "Lutador/Aço"
+  ]
+}
